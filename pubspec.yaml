@@ -82,17 +82,17 @@ flutter:
     - family: Airbnb Cereal
       fonts:
         - asset: assets/fonts/AirbnbCereal_W_Blk.otf
-          weight: 900
-        - asset: assets/fonts/AirbnbCereal_W_XBd.otf
           weight: 800
-        - asset: assets/fonts/AirbnbCereal_W_Bd.otf
+        - asset: assets/fonts/AirbnbCereal_W_XBd.otf
           weight: 700
-        - asset: assets/fonts/AirbnbCereal_W_Md.otf
+        - asset: assets/fonts/AirbnbCereal_W_Bd.otf
           weight: 600
-        - asset: assets/fonts/AirbnbCereal_W_Bk.otf
+        - asset: assets/fonts/AirbnbCereal_W_Md.otf
           weight: 500
-        - asset: assets/fonts/AirbnbCereal_W_Lt.otf
+        - asset: assets/fonts/AirbnbCereal_W_Bk.otf
           weight: 400
+        - asset: assets/fonts/AirbnbCereal_W_Lt.otf
+          weight: 300
 
   #   - family: Trajan Pro
   #     fonts:
