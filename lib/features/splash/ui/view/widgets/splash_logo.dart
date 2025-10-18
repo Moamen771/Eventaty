@@ -1,5 +1,4 @@
 import 'package:eventaty/core/utlis/font_manager.dart';
-
 import '../../../../../core/utlis/styles_manager.dart';
 import '../../../../../core/utlis/color_manager.dart';
 import '../../../../../core/utlis/icons_manager.dart';
