@@ -12,8 +12,8 @@ class ColorManager {
   static const Color accentRed = Color(0xFFF0635A); // #F0635A
   static const Color accentOrange = Color(0xFF39B54A); // #39B54A
   static const Color accentGreen = Color(0xFFF0635A); // #F0635A
-  static const Color accentDarkCyan = Color(0xFF46CDFB); // #46CDFB
-  static const Color accentPurple = Color(0xFFF0635A); // #F0635A
+  static const Color accentDarkCyan = Color(0xFF00F8FF); // #46CDFB
+  static const Color accentPurple = Color(0xFF5669FF); // #F0635A
   static const Color accentYellow = Color(0xFFFDC400); // #FDC400
 
   // Background Colors
