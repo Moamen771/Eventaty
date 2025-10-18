@@ -1,3 +1,5 @@
+import 'package:eventaty/core/utlis/font_manager.dart';
+
 import '../../../../../core/utlis/styles_manager.dart';
 import '../../../../../core/utlis/color_manager.dart';
 import '../../../../../core/utlis/icons_manager.dart';
@@ -20,14 +22,14 @@ class SplashLogo extends StatelessWidget {
                 text: 'ven',
                 style: getBoldStyle(
                   color: ColorManager.accentPurple,
-                  fontSize: 45,
+                  fontSize: FontSize.s45,
                 ),
               ),
               TextSpan(
                 text: 'taty',
                 style: getBoldStyle(
                   color: ColorManager.accentDarkCyan,
-                  fontSize: 45,
+                  fontSize: FontSize.s45,
                 ),
               ),
             ],
