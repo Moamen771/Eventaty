@@ -28,4 +28,15 @@ abstract class FontSize {
   static const s24 = 24.0;
   static const s26 = 26.0;
   static const s28 = 28.0;
+  static const s30 = 30.0;
+  static const s32 = 32.0;
+  static const s34 = 34.0;
+  static const s36 = 36.0;
+  static const s38 = 38.0;
+  static const s40 = 40.0;
+  static const s42 = 42.0;
+  static const s44 = 44.0;
+  static const s45 = 45.0;
+  static const s48 = 48.0;
+  static const s50 = 50.0;
 }
