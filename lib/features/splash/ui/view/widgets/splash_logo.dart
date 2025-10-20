@@ -1,7 +1,5 @@
-import 'package:eventaty/core/utlis/font_manager.dart';
-import '../../../../../core/utlis/styles_manager.dart';
-import '../../../../../core/utlis/color_manager.dart';
-import '../../../../../core/utlis/icons_manager.dart';
+import 'package:eventaty/features/splash/ui/view/widgets/splash_anomated_icon.dart';
+import 'package:eventaty/features/splash/ui/view/widgets/splash_anomated_text.dart';
 import 'package:flutter/Material.dart';
 
 class SplashLogo extends StatelessWidget {
@@ -9,32 +7,25 @@ class SplashLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return const Row(
       mainAxisSize: MainAxisSize.min,
       mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Image.asset(IconsManager.appIcon),
-        RichText(
-          text: TextSpan(
-            children: <InlineSpan>[
-              TextSpan(
-                text: 'ven',
-                style: getBoldStyle(
-                  color: ColorManager.accentPurple,
-                  fontSize: FontSize.s45,
-                ),
-              ),
-              TextSpan(
-                text: 'taty',
-                style: getBoldStyle(
-                  color: ColorManager.accentDarkCyan,
-                  fontSize: FontSize.s45,
-                ),
-              ),
-            ],
-          ),
-        ),
-      ],
+      children: [SplashAnimatedIcon(), SplashAnimatedText()],
+      // )
+      // .animate(
+      //   delay: 2.seconds,
+      //   onPlay: (controller) {
+      //     controller.repeat();
+      //   },
+      //   onComplete: (controller) {
+      //     controller.reverse();
+      //   },
+      // )
+      // .scaleY(
+      //   begin: 0,
+      //   end: -0.1,
+      //   duration: 2.seconds,
+      //   curve: Curves.bounceOut,
     );
   }
 }
