@@ -1,4 +1,4 @@
-import 'package:eventaty/features/auth/ui/view/sign_up_view.dart';
+import 'package:eventaty/features/splash/ui/view/splash_view.dart';
 import 'package:flutter/material.dart';
 
 class Eventaty extends StatelessWidget {
@@ -8,7 +8,7 @@ class Eventaty extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignUpView(),
+      home: SplashView(),
     );
   }
 }
